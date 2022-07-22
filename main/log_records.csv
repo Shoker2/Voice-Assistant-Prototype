@@ -1,0 +1,138 @@
+2022-07-20 18:09:05, 251096694070489 ,INFO,"setting start time"
+2022-07-20 18:09:06, 251096694070489 ,INFO,"opening lang config"
+2022-07-20 18:09:06, 251096694070489 ,INFO,"initing appIO"
+2022-07-20 18:09:10, 251096694070489 ,INFO,"speeching ready message"
+2022-07-20 18:09:10, 251096694070489 ,DEBUG,"Starting new HTTP connection (1): 127.0.0.1:8080"
+2022-07-20 18:09:11, 251096694070489 ,DEBUG,"http://127.0.0.1:8080 "POST / HTTP/1.1" 200 190659"
+2022-07-20 18:09:13, 251096694070489 ,INFO,"setuping commands list"
+2022-07-20 18:09:13, 251096694070489 ,INFO,"starting listening"
+2022-07-20 18:09:21, 251096694070489 ,INFO,"Graceful shutdown"
+2022-07-20 18:09:21, 251096694070489 ,DEBUG,"Starting new HTTP connection (1): 127.0.0.1:8000"
+2022-07-20 18:09:21, 251096694070489 ,DEBUG,"http://127.0.0.1:8000 "POST /auth HTTP/1.1" 500 21"
+2022-07-20 18:09:28,251096694070489,INFO,"setting start time"
+2022-07-20 18:09:28,251096694070489,INFO,"opening lang config"
+2022-07-20 18:09:28,251096694070489,INFO,"initing appIO"
+2022-07-20 18:11:33,251096694070489,INFO,"setting start time"
+2022-07-20 18:11:33,251096694070489,INFO,"opening lang config"
+2022-07-20 18:11:33,251096694070489,INFO,"initing appIO"
+2022-07-20 18:11:33,251096694070489,INFO,"setting start time"
+2022-07-20 18:11:33,251096694070489,INFO,"opening lang config"
+2022-07-20 18:11:33,251096694070489,INFO,"initing appIO"
+2022-07-20 18:11:33,251096694070489,CRITICAL,"Traceback (most recent call last):
+  File 'app.py', line 53, in <module>
+    appIO = AudioInputOutput(UID=UID, say_server=text2speach_url, lang=lang) # инициализирую нужные классы
+  File '/home/pi/Desktop/Projects/va/main/audio_io.py', line 21, in __init__
+    self.__open_stream(self.pa.get_default_input_device_info()['index'])
+  File '/home/pi/Desktop/Projects/va/main/venv/lib/python3.7/site-packages/pyaudio.py', line 949, in get_default_input_device_info
+    device_index = pa.get_default_input_device()
+OSError: No Default Input Device Available
+"
+2022-07-20 18:11:38,251096694070489,INFO,"speeching ready message"
+2022-07-20 18:11:38,251096694070489,DEBUG,"Starting new HTTP connection (1): 127.0.0.1:8080"
+2022-07-20 18:11:40,251096694070489,DEBUG,"http://127.0.0.1:8080 "POST / HTTP/1.1" 200 190659"
+2022-07-20 18:11:41,251096694070489,INFO,"setuping commands list"
+2022-07-20 18:11:41,251096694070489,INFO,"starting listening"
+2022-07-22 08:20:38,251096694070489,INFO,"setting start time"
+2022-07-22 08:20:38,251096694070489,INFO,"opening lang config"
+2022-07-22 08:20:38,251096694070489,INFO,"initing appIO"
+2022-07-22 08:20:39,251096694070489,CRITICAL,"Traceback (most recent call last):
+  File 'app.py', line 53, in <module>
+    appIO = AudioInputOutput(UID=UID, say_server=text2speach_url, lang=lang) # инициализирую нужные классы
+  File '/home/pi/Desktop/Projects/va/main/audio_io.py', line 21, in __init__
+    self.__open_stream(self.pa.get_default_input_device_info()['index'])
+  File '/home/pi/Desktop/Projects/va/main/venv/lib/python3.7/site-packages/pyaudio.py', line 949, in get_default_input_device_info
+    device_index = pa.get_default_input_device()
+OSError: No Default Input Device Available
+"
+2022-07-22 09:41:28,251096694070489,INFO,"setting start time"
+2022-07-22 09:41:28,251096694070489,INFO,"opening lang config"
+2022-07-22 09:41:28,251096694070489,INFO,"initing appIO"
+2022-07-22 09:41:28,251096694070489,INFO,"setting start time"
+2022-07-22 09:41:28,251096694070489,INFO,"opening lang config"
+2022-07-22 09:41:28,251096694070489,INFO,"initing appIO"
+2022-07-22 09:41:28,251096694070489,CRITICAL,"Traceback (most recent call last):
+  File 'app.py', line 53, in <module>
+    appIO = AudioInputOutput(UID=UID, say_server=text2speach_url, lang=lang) # инициализирую нужные классы
+  File '/home/pi/Desktop/Projects/va/main/audio_io.py', line 21, in __init__
+    self.__open_stream(self.pa.get_default_input_device_info()['index'])
+  File '/home/pi/Desktop/Projects/va/main/venv/lib/python3.7/site-packages/pyaudio.py', line 949, in get_default_input_device_info
+    device_index = pa.get_default_input_device()
+OSError: No Default Input Device Available
+"
+2022-07-22 09:41:47,251096694070489,INFO,"speeching ready message"
+2022-07-22 09:41:47,251096694070489,DEBUG,"Starting new HTTP connection (1): 127.0.0.1:8080"
+2022-07-22 09:41:49,251096694070489,DEBUG,"http://127.0.0.1:8080 "POST / HTTP/1.1" 200 190659"
+2022-07-22 09:41:51,251096694070489,INFO,"setuping commands list"
+2022-07-22 09:41:51,251096694070489,INFO,"starting listening"
+2022-07-22 09:42:01,251096694070489,DEBUG,"Stream not open - connected to new device"
+2022-07-22 09:42:19,251096694070489,DEBUG,"user saw - вход"
+2022-07-22 09:42:19,251096694070489,INFO,"starting sing in command"
+2022-07-22 09:42:19,251096694070489,INFO,"starting code command"
+2022-07-22 09:42:19,251096694070489,INFO,"generating code"
+2022-07-22 09:42:19,251096694070489,INFO,"speeching code"
+2022-07-22 09:42:19,251096694070489,DEBUG,"Starting new HTTP connection (1): 127.0.0.1:8080"
+2022-07-22 09:42:20,251096694070489,DEBUG,"http://127.0.0.1:8080 "POST / HTTP/1.1" 200 129219"
+2022-07-22 09:43:31,251096694070489,INFO,"setting start time"
+2022-07-22 09:43:31,251096694070489,INFO,"opening lang config"
+2022-07-22 09:43:31,251096694070489,INFO,"initing appIO"
+2022-07-22 09:43:32,251096694070489,INFO,"setting start time"
+2022-07-22 09:43:32,251096694070489,INFO,"opening lang config"
+2022-07-22 09:43:32,251096694070489,INFO,"initing appIO"
+2022-07-22 09:43:32,251096694070489,CRITICAL,"Traceback (most recent call last):
+  File 'app.py', line 53, in <module>
+    appIO = AudioInputOutput(UID=UID, say_server=text2speach_url, lang=lang) # инициализирую нужные классы
+  File '/home/pi/Desktop/Projects/va/main/audio_io.py', line 21, in __init__
+    self.__open_stream(self.pa.get_default_input_device_info()['index'])
+  File '/home/pi/Desktop/Projects/va/main/venv/lib/python3.7/site-packages/pyaudio.py', line 949, in get_default_input_device_info
+    device_index = pa.get_default_input_device()
+OSError: No Default Input Device Available
+"
+2022-07-22 09:43:36,251096694070489,INFO,"speeching ready message"
+2022-07-22 09:43:36,251096694070489,DEBUG,"Starting new HTTP connection (1): 127.0.0.1:8080"
+2022-07-22 09:43:38,251096694070489,DEBUG,"http://127.0.0.1:8080 "POST / HTTP/1.1" 200 190659"
+2022-07-22 09:43:40,251096694070489,INFO,"setuping commands list"
+2022-07-22 09:43:40,251096694070489,INFO,"starting listening"
+2022-07-22 09:43:43,251096694070489,DEBUG,"user saw - вход"
+2022-07-22 09:43:43,251096694070489,INFO,"starting sing in command"
+2022-07-22 09:43:43,251096694070489,INFO,"starting code command"
+2022-07-22 09:43:43,251096694070489,INFO,"generating code"
+2022-07-22 09:43:43,251096694070489,INFO,"speeching code"
+2022-07-22 09:43:43,251096694070489,DEBUG,"Starting new HTTP connection (1): 127.0.0.1:8080"
+2022-07-22 09:43:44,251096694070489,DEBUG,"http://127.0.0.1:8080 "POST / HTTP/1.1" 200 146499"
+2022-07-22 09:44:24,251096694070489,DEBUG,"user saw - "
+2022-07-22 09:44:31,251096694070489,DEBUG,"user saw - влаги"
+2022-07-22 09:44:31,251096694070489,DEBUG,"Starting new HTTP connection (1): 127.0.0.1:8080"
+2022-07-22 09:44:32,251096694070489,DEBUG,"http://127.0.0.1:8080 "POST / HTTP/1.1" 200 116739"
+2022-07-22 09:44:38,251096694070489,DEBUG,"user saw - помочь"
+2022-07-22 09:44:38,251096694070489,DEBUG,"Starting new HTTP connection (1): 127.0.0.1:8080"
+2022-07-22 09:44:39,251096694070489,DEBUG,"http://127.0.0.1:8080 "POST / HTTP/1.1" 200 116739"
+2022-07-22 09:44:56,251096694070489,DEBUG,"user saw - английский язык"
+2022-07-22 09:44:56,251096694070489,DEBUG,"Starting new HTTP connection (1): 127.0.0.1:8080"
+2022-07-22 09:44:57,251096694070489,DEBUG,"http://127.0.0.1:8080 "POST / HTTP/1.1" 200 116739"
+2022-07-22 09:45:02,251096694070489,DEBUG,"user saw - выезде"
+2022-07-22 09:45:02,251096694070489,DEBUG,"Starting new HTTP connection (1): 127.0.0.1:8080"
+2022-07-22 09:45:03,251096694070489,DEBUG,"http://127.0.0.1:8080 "POST / HTTP/1.1" 200 116739"
+2022-07-22 09:45:07,251096694070489,DEBUG,"user saw - выход"
+2022-07-22 09:45:07,251096694070489,DEBUG,"Starting new HTTP connection (1): 127.0.0.1:8080"
+2022-07-22 09:45:08,251096694070489,DEBUG,"http://127.0.0.1:8080 "POST / HTTP/1.1" 200 116739"
+2022-07-22 09:45:11,251096694070489,DEBUG,"user saw - умри"
+2022-07-22 09:45:11,251096694070489,DEBUG,"Starting new HTTP connection (1): 127.0.0.1:8080"
+2022-07-22 09:45:12,251096694070489,DEBUG,"http://127.0.0.1:8080 "POST / HTTP/1.1" 200 116739"
+2022-07-22 10:00:51,251096694070489,INFO,"Graceful shutdown"
+2022-07-22 10:00:51,251096694070489,DEBUG,"Starting new HTTP connection (1): 127.0.0.1:8000"
+2022-07-22 10:00:51,251096694070489,DEBUG,"http://127.0.0.1:8000 "POST /auth HTTP/1.1" 500 21"
+2022-07-22 10:01:33,251096694070489,INFO,"setting start time"
+2022-07-22 10:01:33,251096694070489,INFO,"opening lang config"
+2022-07-22 10:01:33,251096694070489,INFO,"initing appIO"
+2022-07-22 10:02:18,251096694070489,INFO,"setting start time"
+2022-07-22 10:02:18,251096694070489,INFO,"opening lang config"
+2022-07-22 10:02:18,251096694070489,INFO,"initing appIO"
+2022-07-22 10:02:18,251096694070489,CRITICAL,"Traceback (most recent call last):
+  File 'app.py', line 53, in <module>
+    appIO = AudioInputOutput(UID=UID, say_server=text2speach_url, lang=lang) # инициализирую нужные классы
+  File '/home/pi/Desktop/Projects/va/main/audio_io.py', line 21, in __init__
+    self.__open_stream(self.pa.get_default_input_device_info()['index'])
+  File '/home/pi/Desktop/Projects/va/main/venv/lib/python3.7/site-packages/pyaudio.py', line 949, in get_default_input_device_info
+    device_index = pa.get_default_input_device()
+OSError: No Default Input Device Available
+"
