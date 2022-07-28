@@ -1,4 +1,4 @@
-gateway-server repository:
+gateway-server repository: https://gitlab.com/levonmkrtchan902/biocad
 
 ## Оглавление
 - [main](#main)
