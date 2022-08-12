@@ -1,4 +1,4 @@
-gateway-server repository: https://gitlab.com/levonmkrtchan902/biocad
+gateway-server repository: https://github.com/biodora/voice-control-unit/tree/actual
 
 ## Оглавление
 - [main](#main)
